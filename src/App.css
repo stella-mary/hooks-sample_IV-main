@@ -1,0 +1,94 @@
+.maincontainer{
+background-color: black;
+width: 100vh;
+height: 100vh;
+}
+
+
+.form > input {
+  background-color: transparent;
+  outline:0px none;
+  border: none;
+  border-bottom: solid 2px;
+  border-bottom-color: green;
+  padding-bottom: 5px;
+  font-family: cursive;
+}
+
+.container{
+  background-color: #282c34;
+  min-height: 100vh;
+  padding: 10%;
+  align-items: center;
+}
+
+.form > button{
+  font-family: cursive;
+  font-size: 1rem;
+  padding: 0.1em;
+}
+
+.form{
+  border-radius: 50px;
+  background-color:aquamarine;
+  padding: 10px 10px;
+  display: flex;
+  width: 400px;
+  margin: auto;
+  justify-content: space-between;
+  color:white;
+}
+
+button{
+  background-color: white;
+  border: none;
+  border: solid 1px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color:bisque;
+}
+
+.props{
+  border-radius: 50px;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 3%;
+  background-color:coral;
+  padding: 10px 10px;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  color:white;
+}
+
+.propsCorrect{
+  position: absolute;
+  right: 30%;
+  cursor: pointer;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+h2{
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: large;
+  margin-top: 5%;
+}
+
+
+  
+
+
